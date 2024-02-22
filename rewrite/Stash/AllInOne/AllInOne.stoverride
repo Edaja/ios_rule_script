@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-02-14 02:22:37
+desc: 最后更新时间 2024-02-22 02:20:05
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 627
-# mitm: 658
+# reject: 630
+# mitm: 661
 # force-http-engine-hosts: 6
-# total: 1330
+# total: 1336
 
 
 
@@ -31,6 +31,7 @@ http:
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
+    - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
@@ -243,6 +244,7 @@ http:
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
     - ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
+    - ^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json - reject
     - ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
     - ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
@@ -595,6 +597,7 @@ http:
     - ^https?:\/\/superapp\.xgimi\.com\/api/v1\/app\/ad\/configs\?_sort=createdAt:Adesc - reject
     - ^https?:\/\/support\.you\.163\.com\/appversync\/check.do - reject
     - ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
+    - ^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) - reject
     - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
     - ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
     - ^https?:\/\/tagit\.hyhuo\.com\/recover\/list - reject
@@ -1231,6 +1234,7 @@ http:
     - "m.client.10010.com"
     - "m.ctrip.com"
     - "m.ibuscloud.com"
+    - "m.meitun.com"
     - "m.msyc.cc"
     - "m.sd.10086.cn"
     - "m.tuniu.com"
@@ -1270,6 +1274,7 @@ http:
     - "mobile.da.mgtv.com"
     - "mobilead.kuwo.cn"
     - "mobileapi-v6.elong.com"
+    - "mobilepaas.abchina.com.cn"
     - "mp.weixin.qq.com"
     - "mpcs.suning.com"
     - "mpos-pic.helipay.com"
@@ -1370,6 +1375,7 @@ http:
     - "support.you.163.com"
     - "suyun-guest.daojia.com"
     - "suyun-user.daojia.com"
+    - "switch.jumpvg.com"
     - "syh.zybang.com"
     - "t1.market.xiaomi.com"
     - "tagit.hyhuo.com"
