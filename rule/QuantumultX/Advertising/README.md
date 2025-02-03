@@ -15,18 +15,18 @@
 
 ## 规则统计
 
-最后更新时间：2024-08-18 02:08:35
+最后更新时间：2025-02-03 02:08:48
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 16327  | 
+| HOST | 16465  | 
 | HOST-KEYWORD | 259  | 
-| HOST-SUFFIX | 136155  | 
+| HOST-SUFFIX | 140732  | 
 | HOST-WILDCARD | 1  | 
-| IP-CIDR | 445  | 
+| IP-CIDR | 461  | 
 | IP6-CIDR | 1  | 
-| TOTAL | 153188  | 
+| TOTAL | 157919  | 
 
 
 ## QuantumultX 
@@ -95,7 +95,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 - https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-- https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
